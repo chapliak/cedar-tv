@@ -1,0 +1,18 @@
+# Baseline profile: pre-compiles Compose, TV Material, Media3, Coil and our own code at install time
+# (without it the app runs interpreted/JIT at first and scrolling is janky on the Streamer).
+HSPLandroidx/compose/**;->**(**)**
+HSPLandroidx/tv/**;->**(**)**
+HSPLandroidx/media3/**;->**(**)**
+HSPLandroidx/lifecycle/**;->**(**)**
+HSPLandroidx/activity/**;->**(**)**
+HSPLandroidx/core/**;->**(**)**
+HSPLcoil/**;->**(**)**
+HSPLkotlinx/coroutines/**;->**(**)**
+HSPLkotlinx/serialization/**;->**(**)**
+HSPLkotlin/**;->**(**)**
+HSPLapp/cedartv/**;->**(**)**
+Landroidx/compose/**;
+Landroidx/tv/**;
+Landroidx/media3/**;
+Lcoil/**;
+Lapp/cedartv/**;

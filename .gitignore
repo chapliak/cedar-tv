@@ -1,0 +1,12 @@
+.gradle/
+build/
+local.properties
+*.jks
+*.keystore
+dist/
+tools/smoke-out/
+docs/screenshots/t*.png
+PROGRESS.md
+ANALYSIS.md
+CLAUDE.md
+.kotlin/
