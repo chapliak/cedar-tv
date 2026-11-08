@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#0E1512"/>
+  <rect y="540" width="1280" height="180" fill="#16201B"/>
+  <g transform="translate(70,140) scale(4.6)"><path fill="#7BC9A0" d="M54,24 L72,50 L36,50 Z"/><path fill="#5DB287" d="M54,36 L77,64 L31,64 Z"/><path fill="#3E9A6D" d="M54,48 L82,78 L26,78 Z"/><path fill="#8A6A4A" d="M50,78 L58,78 L58,88 L50,88 Z"/></g>
+  <text x="470" y="395" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="130" fill="#EDEFEA">Cedar TV</text>
+  <text x="476" y="470" font-family="DejaVu Sans, sans-serif" font-size="44" fill="#E8B83F">Videos · Songs · Karaoke</text>
+</svg>

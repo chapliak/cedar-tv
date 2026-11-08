@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 500" width="1024" height="500">
+  <rect width="1024" height="500" fill="#0E1512"/>
+  <rect y="400" width="1024" height="100" fill="#16201B"/>
+  <g transform="translate(40,80) scale(3.2)"><path fill="#7BC9A0" d="M54,24 L72,50 L36,50 Z"/><path fill="#5DB287" d="M54,36 L77,64 L31,64 Z"/><path fill="#3E9A6D" d="M54,48 L82,78 L26,78 Z"/><path fill="#8A6A4A" d="M50,78 L58,78 L58,88 L50,88 Z"/></g>
+    <text x="370" y="195" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="88" fill="#EDEFEA">Cedar TV</text>
+  <text x="374" y="252" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="32" fill="#E8B83F">Karaoke</text>
+  <text x="374" y="294" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="32" fill="#E8B83F">Two subtitle languages at once</text>
+  <text x="374" y="336" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="32" fill="#E8B83F">300+ languages</text>
+  <text x="374" y="458" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#C9D6CF">Free · open source · no ads</text>
+</svg>
