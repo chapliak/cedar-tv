@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -24,6 +26,20 @@ android {
             keyPassword = "android"
         }
     }
+    // Real Play upload key: only used when ~/.cedar-upload/keystore.properties exists (made by tools/make-upload-key.sh).
+    // build.sh mounts that folder at /upload. Never committed.
+    val uploadProps = Properties().apply {
+        val f = file("/upload/keystore.properties")
+        if (f.exists()) f.inputStream().use { load(it) }
+    }
+    if (uploadProps.isNotEmpty()) {
+        signingConfigs.create("upload") {
+            storeFile = file("/upload/upload.jks")
+            storePassword = uploadProps.getProperty("storePassword")
+            keyAlias = uploadProps.getProperty("keyAlias")
+            keyPassword = uploadProps.getProperty("keyPassword")
+        }
+    }
     buildTypes {
         debug { signingConfig = signingConfigs.getByName("cedartest") }
         release {
@@ -31,7 +47,9 @@ android {
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-            signingConfig = signingConfigs.getByName("cedartest")
+            signingConfig = signingConfigs.findByName(
+                if (System.getenv("CEDAR_PLAY") == "1") "upload" else "cedartest"
+            ) ?: signingConfigs.getByName("cedartest")
         }
     }
     compileOptions {
