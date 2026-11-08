@@ -5,7 +5,8 @@
 <h1 align="center">Cedar TV: unofficial jw.org app for Google TV and Android TV</h1>
 
 <p align="center">
-  <b>Videos, songs and sing-along in over 300 languages, made for the Google TV remote.</b><br>
+  <b>Videos, songs, karaoke and subtitles in over 300 languages, made for the Google TV remote.</b><br>
+  Watch with <b>two subtitle languages at once</b> and sing along with <b>highlighted karaoke lyrics</b>.<br>
   Free · open source · no ads · no account · no tracking
 </p>
 
@@ -48,24 +49,24 @@ karaoke) on your TV, with a player and interface built for the remote.
 
 ## Features
 
+- **Karaoke mode.** Sing along with songs on the big screen: lyrics are highlighted line by line in time with the music,
+  with a large readable size and a backdrop. Play all or Shuffle, in any of the song languages, and show a second language
+  as a translation.
+- **Subtitles in any language, two at once.** Pick one subtitle language, or show **two together** (original on top, your
+  language below), or translation only. Adjust the timing with the remote, switch languages in a small popup without
+  leaving the video, and keep your most-used languages pinned. Works for videos and for karaoke.
 - **Designed for the remote.** Everything works with the D-pad, OK, Back and Home of a Google TV Streamer remote. No hidden
   keys, no touch, no mouse.
-- **Over 300 languages** for the interface content, audio and subtitles, including right-to-left languages and sign
-  languages. Your recent languages are pinned to the top of every picker.
-- **Two subtitle languages at once** (original + translation), with timing adjustment and a comfortable text size.
+- **Over 300 languages** for content, audio and subtitles, including right-to-left languages and sign languages. Recent
+  languages are pinned to the top of every picker.
 - **Smooth player** (Media3): quick scrubbing (tap = back 5 s / forward 10 s, hold to accelerate), playback speed,
   quality choice, switch audio language without leaving the video, auto-advance to the next video.
-- **Music & Audio:** Play all, Shuffle, queue, sleep timer, and **Karaoke** mode with highlighted lyrics.
+- **Music & Audio:** Play all, Shuffle, queue and sleep timer.
 - **Library:** continue watching with progress bars, favorites, history, and **downloads** that play without Wi-Fi.
 - **Search** with recent searches.
 - **Screensaver** with artwork, a clock and the daily text; the TV never dims under a playing video.
 - **Scales from 720p to 4K** with the same layout.
 - **Private:** no ads, no account, no analytics. Settings, favorites and history stay on the TV.
-
-## Keywords
-
-jw.org TV app, JW Broadcasting on Google TV, jw.org Android TV app, JW library videos on TV, JW songs karaoke, sing-along,
-unofficial jw.org player, Google TV Streamer, Chromecast with Google TV, Nvidia Shield, Sony Bravia, 300 languages, sign languages.
 
 ## Install
 
