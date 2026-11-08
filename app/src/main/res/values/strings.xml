@@ -60,7 +60,7 @@
     <string name="about">About</string>
     <string name="offline_banner">Offline — showing saved content</string>
     <string name="about_version">Version %1$s</string>
-    <string name="about_tagline">Videos, songs and sing-along in over 300 languages, made for the TV remote.</string>
+    <string name="about_tagline">Videos, songs, karaoke and two-language subtitles in over 300 languages, made for the TV remote.</string>
     <string name="about_text">Free and open source. No ads, no account, no tracking: the app collects no data about you. Videos, songs and texts stream from the public media library of jw.org, and nothing is stored on the TV unless you download it.</string>
     <string name="about_made_by">Made by Maksym Chapliak in Montreal</string>
     <string name="about_legal">Cedar TV is an independent, unofficial app. It is not affiliated with, endorsed by or sponsored by jw.org or any organization. All content belongs to its owners.</string>
