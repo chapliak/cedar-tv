@@ -1,14 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
   <rect width="1280" height="640" fill="#0E1512"/>
-  <rect y="430" width="1280" height="210" fill="#16201B"/>
-  <g transform="translate(150,150) scale(3.4)">
+  <rect y="450" width="1280" height="190" fill="#16201B"/>
+  <g transform="translate(70,130) scale(3.6)">
     <path fill="#7BC9A0" d="M54,24 L72,50 L36,50 Z"/>
     <path fill="#5DB287" d="M54,36 L77,64 L31,64 Z"/>
     <path fill="#3E9A6D" d="M54,48 L82,78 L26,78 Z"/>
     <path fill="#8A6A4A" d="M50,78 L58,78 L58,88 L50,88 Z"/>
   </g>
-  <text x="540" y="300" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="120" fill="#EDEFEA">Cedar TV</text>
-  <text x="544" y="372" font-family="DejaVu Sans, sans-serif" font-size="34" fill="#E8B83F">Videos, songs and sing-along</text>
-  <text x="544" y="418" font-family="DejaVu Sans, sans-serif" font-size="34" fill="#E8B83F">in over 300 languages, for Google TV</text>
-  <text x="544" y="520" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#8FA39A">Free · open source · no ads · remote-only</text>
+  <text x="470" y="260" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="112" fill="#EDEFEA">Cedar TV</text>
+  <text x="474" y="332" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="40" fill="#E8B83F">Unofficial app for streaming</text>
+  <text x="474" y="384" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="40" fill="#E8B83F">jw.org content on Google TV</text>
+  <text x="474" y="500" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#C9D6CF">Karaoke · Two subtitle languages at once</text>
+  <text x="474" y="544" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#C9D6CF">300+ languages · Made for the TV remote</text>
+  <text x="474" y="590" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#8FA39A">Free · open source · no ads · not affiliated with jw.org</text>
 </svg>
