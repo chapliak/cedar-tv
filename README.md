@@ -2,13 +2,16 @@
   <img src="docs/brand/banner.png" alt="Cedar TV" width="720">
 </p>
 
+<h1 align="center">Cedar TV: unofficial jw.org app for Google TV and Android TV</h1>
+
 <p align="center">
   <b>Videos, songs and sing-along in over 300 languages, made for the Google TV remote.</b><br>
   Free · open source · no ads · no account · no tracking
 </p>
 
-Cedar TV streams the free public media library of [jw.org](https://www.jw.org) (videos, JW Broadcasting, talks, songs and
-audio) on your TV, with a player and interface built for the remote.
+Cedar TV is an unofficial **jw.org app for Google TV, Android TV and the Google TV Streamer**. It streams the free public
+media library of [jw.org](https://www.jw.org) (JW Broadcasting, videos, talks, original songs, children's songs, audio and
+karaoke) on your TV, with a player and interface built for the remote.
 
 > **Unofficial.** Cedar TV is an independent hobby project. It is not affiliated with, endorsed by or sponsored by
 > jw.org or any organization, and the name "Cedar TV" is not theirs. All videos, songs, texts and images belong to their
@@ -58,6 +61,11 @@ audio) on your TV, with a player and interface built for the remote.
 - **Screensaver** with artwork, a clock and the daily text; the TV never dims under a playing video.
 - **Scales from 720p to 4K** with the same layout.
 - **Private:** no ads, no account, no analytics. Settings, favorites and history stay on the TV.
+
+## Keywords
+
+jw.org TV app, JW Broadcasting on Google TV, jw.org Android TV app, JW library videos on TV, JW songs karaoke, sing-along,
+unofficial jw.org player, Google TV Streamer, Chromecast with Google TV, Nvidia Shield, Sony Bravia, 300 languages, sign languages.
 
 ## Install
 
