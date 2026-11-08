@@ -7,8 +7,12 @@
   Free · open source · no ads · no account · no tracking
 </p>
 
-> **Unofficial.** Cedar TV is an independent hobby project. It is not affiliated with, endorsed by or sponsored by any
-> organization. All videos, songs, texts and images belong to their owners and are streamed from publicly available servers.
+Cedar TV streams the free public media library of [jw.org](https://www.jw.org) (videos, JW Broadcasting, talks, songs and
+audio) on your TV, with a player and interface built for the remote.
+
+> **Unofficial.** Cedar TV is an independent hobby project. It is not affiliated with, endorsed by or sponsored by
+> jw.org or any organization, and the name "Cedar TV" is not theirs. All videos, songs, texts and images belong to their
+> owners and are streamed from their public servers; nothing is hosted here.
 
 ## Screenshots
 
