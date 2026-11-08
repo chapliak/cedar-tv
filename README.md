@@ -68,6 +68,23 @@ karaoke) on your TV, with a player and interface built for the remote.
 - **Scales from 720p to 4K** with the same layout.
 - **Private:** no ads, no account, no analytics. Settings, favorites and history stay on the TV.
 
+## Is this allowed by the jw.org terms of use?
+
+Short answer: apps like this are a permitted use. The [Terms of Use of jw.org](https://www.jw.org/finder?docid=1011511&prefer=content)
+forbid building software meant to scrape or harvest the site's data, HTML, images or text. They make a clear exception,
+though, for **free, non-commercial applications that download electronic files** (EPUB, PDF, MP3, MP4 and similar) from
+the site's public areas.
+
+Cedar TV stays inside that exception:
+
+- it is free, open source and has no ads, purchases or tracking;
+- it only plays and downloads the public media files the site offers (MP4 video, MP3 audio and subtitle files);
+- it does not scrape pages, bypass logins or copy anything that isn't published for download;
+- it does not host or redistribute any content itself.
+
+This is the project's own reading of the published terms, not legal advice. Please read the terms yourself, and if the
+organization ever asks for a change, the project will follow it.
+
 ## Install
 
 Requirements: Google TV / Android TV (Android 8.0+, API 26).
