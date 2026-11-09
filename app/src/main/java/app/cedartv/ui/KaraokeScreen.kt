@@ -91,7 +91,7 @@ private fun SweepLine(text: String, frac: Float) {
 
 @OptIn(UnstableApi::class)
 @Composable
-fun KaraokeScreen(req: KaraokeRequest, subs: SubSettings) {
+fun KaraokeScreen(req: KaraokeRequest, subs: SubSettings, audioLang: String = "") {
     val ctx = LocalContext.current
     val player = remember {
         ExoPlayer.Builder(ctx).build().apply {
@@ -122,12 +122,13 @@ fun KaraokeScreen(req: KaraokeRequest, subs: SubSettings) {
         player.addListener(l)
         onDispose { player.removeListener(l); player.release() }
     }
-    LaunchedEffect(index, subs.lang) {
+    LaunchedEffect(index, subs.lang, audioLang) {
         loaded = false; own = emptyList(); tr = emptyList()
         val item = req.items.getOrNull(index) ?: return@LaunchedEffect
         own = item.subtitleUrl?.let { Api.cuesFromUrl(it) } ?: emptyList()
         val lang = subs.lang
-        if (lang != null && item.key.isNotBlank()) tr = Api.subtitleTrack(lang, item.key)?.cues ?: emptyList()
+        // Same language as the song's own lyrics: a second copy would only repeat the same line.
+        if (lang != null && !lang.equals(audioLang, ignoreCase = true) && item.key.isNotBlank()) tr = Api.subtitleTrack(lang, item.key)?.cues ?: emptyList()
         loaded = true
     }
     LaunchedEffect(Unit) { while (isActive) { pos = player.currentPosition; delay(60) } }
@@ -139,7 +140,10 @@ fun KaraokeScreen(req: KaraokeRequest, subs: SubSettings) {
     val prev = if (active) own.getOrNull(i - 1) else own.getOrNull(i)
     val next = if (active) own.getOrNull(i + 1) else own.getOrNull(i + 1)
     val untilNext = next?.let { it.start - pos }
-    val trLine = if (tr.isNotEmpty()) Vtt.at(tr, pos) else null
+    val trRaw = if (tr.isNotEmpty()) Vtt.at(tr, pos) else null
+    fun norm(t: String) = t.filter { it.isLetterOrDigit() }.lowercase()
+    // Also hide it when the text is identical to the lyric on screen (e.g. a regional variant of the same language).
+    val trLine = trRaw?.takeIf { cur == null || norm(it) != norm(cur.text) }
 
     Box(
         Modifier.fillMaxSize().background(Color.Black)

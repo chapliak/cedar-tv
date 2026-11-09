@@ -420,7 +420,7 @@ private fun App(prefs: SharedPreferences, lib: LibraryStore, dl: DownloadStore) 
                     runCatching { baseCtx.packageManager.getPackageInfo(baseCtx.packageName, 0).versionName }.getOrNull() ?: "",
                 )
                 is Screen.KaraokeList -> KaraokeListScreen(lang, ::karaokeFrom)
-                is Screen.Karaoke -> KaraokeScreen(s.req, SubSettings(subLang.ifEmpty { null }, subBoth))
+                is Screen.Karaoke -> KaraokeScreen(s.req, SubSettings(subLang.ifEmpty { null }, subBoth), lang)
                 is Screen.Play -> PlayerScreen(s.req, SubSettings(subLang.ifEmpty { null }, subBoth), langs) { l, b ->
                     subLang = l ?: ""
                     subBoth = b
