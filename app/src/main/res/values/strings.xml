@@ -58,6 +58,12 @@
     <string name="audio_language">Audio language</string>
     <string name="audio_unavailable">Not available in this language</string>
     <string name="about">About</string>
+    <string name="report_problem">Report a problem</string>
+    <string name="report_title">Report a problem or idea</string>
+    <string name="report_scan">Scan with your phone camera to open the form</string>
+    <string name="report_text">Open the page on your phone, describe what went wrong and what you were doing, and paste the details on the right. Nothing is sent from the TV: you decide what to share.</string>
+    <string name="report_alt">Or write to maksym@chapliak.com, or open github.com/chapliak/cedar-tv/issues</string>
+    <string name="report_details">Details to include</string>
     <string name="offline_banner">Offline — showing saved content</string>
     <string name="about_version">Version %1$s</string>
     <string name="about_tagline">Videos, songs, karaoke and two-language subtitles in over 300 languages, made for the TV remote.</string>

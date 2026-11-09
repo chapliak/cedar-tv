@@ -45,6 +45,7 @@ import app.cedartv.data.thumb
 import app.cedartv.data.toMedia
 import app.cedartv.data.toStored
 import app.cedartv.ui.AboutScreen
+import app.cedartv.ui.ReportScreen
 import app.cedartv.ui.TourScreen
 import app.cedartv.ui.CardMenu
 import app.cedartv.ui.LocalCardMenu
@@ -98,6 +99,7 @@ private sealed interface Screen {
     data object Library : Screen
     data object Settings : Screen
     data object About : Screen
+    data object Report : Screen
     data object Tour : Screen
     data class Karaoke(val req: KaraokeRequest) : Screen
     data class Cat(val cat: Category) : Screen
@@ -414,6 +416,10 @@ private fun App(prefs: SharedPreferences, lib: LibraryStore, dl: DownloadStore) 
                     showNoVideo = showNoVideo, onNoVideo = { showNoVideo = it; prefs.edit().putBoolean("show_novideo", it).apply() },
                     onTour = { stack = stack + Screen.Tour },
                     onAbout = { stack = stack + Screen.About },
+                    onReport = { stack = stack + Screen.Report },
+                )
+                is Screen.Report -> ReportScreen(
+                    runCatching { baseCtx.packageManager.getPackageInfo(baseCtx.packageName, 0).versionName }.getOrNull() ?: "", lang,
                 )
                 is Screen.Tour -> TourScreen(onClose = { stack = stack.dropLast(1) })
                 is Screen.About -> AboutScreen(

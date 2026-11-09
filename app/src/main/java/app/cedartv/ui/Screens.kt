@@ -393,10 +393,11 @@ fun SettingsScreen(
     showNoVideo: Boolean, onNoVideo: (Boolean) -> Unit,
     onTour: () -> Unit,
     onAbout: () -> Unit,
+    onReport: () -> Unit,
 ) {
     val ctx = LocalUiContext.current
     val ssLabel = if (ssMin == 0) str(R.string.subs_off) else ctx.getString(R.string.minutes_short, ssMin)
-    Column(Modifier.fillMaxSize().padding(horizontal = 48.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+    Column(Modifier.fillMaxSize().padding(horizontal = 48.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         ScreenTitle(Icons.Filled.Settings, str(R.string.settings), Modifier.padding(top = 32.dp, bottom = 8.dp))
         Button(onClick = { onSs(SS_STEPS[(SS_STEPS.indexOf(ssMin) + 1) % SS_STEPS.size]) }) {
             Box(Modifier.padding(horizontal = 8.dp, vertical = 4.dp)) { IconLabel(Icons.Filled.Slideshow, str(R.string.screensaver) + ": " + ssLabel, 22.sp) }
@@ -416,6 +417,9 @@ fun SettingsScreen(
         }
         Button(onClick = onTour) {
             Box(Modifier.padding(horizontal = 8.dp, vertical = 4.dp)) { IconLabel(Icons.Filled.HelpOutline, str(R.string.how_to), 22.sp) }
+        }
+        Button(onClick = onReport) {
+            Box(Modifier.padding(horizontal = 8.dp, vertical = 4.dp)) { IconLabel(Icons.Filled.BugReport, str(R.string.report_problem), 22.sp) }
         }
         Button(onClick = onAbout) {
             Box(Modifier.padding(horizontal = 8.dp, vertical = 4.dp)) { IconLabel(Icons.Filled.Info, str(R.string.about), 22.sp) }
@@ -443,6 +447,38 @@ fun AboutScreen(version: String) {
                 IconLabel(Icons.Filled.Code, "github.com/chapliak/cedar-tv", 21.sp, tint = CedarAccent)
             }
             Text(str(R.string.about_legal), fontSize = 16.sp, color = CedarMuted, modifier = Modifier.padding(top = 6.dp))
+        }
+    }
+}
+
+
+@Composable
+fun ReportScreen(version: String, lang: String) {
+    val details = remember(version, lang) {
+        listOf(
+            "Cedar TV $version",
+            "Android ${android.os.Build.VERSION.RELEASE} (API ${android.os.Build.VERSION.SDK_INT})",
+            "${android.os.Build.MANUFACTURER} ${android.os.Build.MODEL}",
+            "Content language: $lang",
+            "Interface: ${java.util.Locale.getDefault().toLanguageTag()}",
+        )
+    }
+    Row(Modifier.fillMaxSize().padding(horizontal = 64.dp, vertical = 40.dp), horizontalArrangement = Arrangement.spacedBy(56.dp), verticalAlignment = Alignment.CenterVertically) {
+        Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.width(360.dp)) {
+            androidx.compose.foundation.Image(
+                androidx.compose.ui.res.painterResource(R.drawable.qr_issues), null,
+                Modifier.size(320.dp).clip(RoundedCornerShape(12.dp)),
+            )
+            Text(str(R.string.report_scan), fontSize = 18.sp, color = CedarMuted, textAlign = androidx.compose.ui.text.style.TextAlign.Center, modifier = Modifier.padding(top = 14.dp))
+        }
+        Column(verticalArrangement = Arrangement.spacedBy(18.dp), modifier = Modifier.weight(1f)) {
+            ScreenTitle(Icons.Filled.BugReport, str(R.string.report_title))
+            Text(str(R.string.report_text), fontSize = 21.sp)
+            Text(str(R.string.report_details), fontSize = 18.sp, color = CedarAccent, fontWeight = FontWeight.Medium)
+            Column(Modifier.clip(RoundedCornerShape(10.dp)).background(Color(0xFF16201B)).padding(16.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                details.forEach { Text(it, fontSize = 18.sp) }
+            }
+            Text(str(R.string.report_alt), fontSize = 16.sp, color = CedarMuted)
         }
     }
 }

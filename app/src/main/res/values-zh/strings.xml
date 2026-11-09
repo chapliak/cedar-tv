@@ -53,7 +53,6 @@
     <string name="play_quality">播放画质</string>
     <string name="about">关于</string>
     <string name="offline_banner">离线 — 显示已保存的内容</string>
-    <string name="about_text">Cedar TV 是非官方应用，与任何组织无关联，也未获其认可。它免费、无广告，不收集您的任何数据。视频、歌曲和文字来自公开服务器；除非您主动下载，否则不会保存任何内容。</string>
     <string name="tour_t1">欢迎使用 Cedar TV</string>
     <string name="tour_b1">用 300 多种语言观看视频、收听歌曲并一起唱。\n\n快速了解：共 5 页。</string>
     <string name="tour_t2">您的遥控器</string>
@@ -79,4 +78,15 @@
     <string name="sign_languages">手语</string>
     <string name="spoken_languages">口语</string>
     <string name="all_langs">所有语言</string>
+    <string name="report_problem">报告问题</string>
+    <string name="report_title">报告问题或建议</string>
+    <string name="report_scan">用手机相机扫描以打开表单</string>
+    <string name="report_text">在手机上打开页面，描述出了什么问题以及您当时在做什么，并粘贴右侧的信息。电视不会发送任何内容，分享什么由您决定。</string>
+    <string name="report_alt">或写信至 maksym@chapliak.com，或打开 github.com/chapliak/cedar-tv/issues</string>
+    <string name="report_details">需要附上的信息</string>
+    <string name="about_version">版本 %1$s</string>
+    <string name="about_tagline">300多种语言的视频、歌曲、卡拉OK和双语字幕，专为电视遥控器设计。</string>
+    <string name="about_text">免费开源。无广告、无需账号、无跟踪：应用不会收集任何关于您的数据。视频、歌曲和文字来自 jw.org 的公开媒体库，除非您自己下载，否则不会在电视上保存任何内容。</string>
+    <string name="about_made_by">由 Maksym Chapliak 在蒙特利尔制作</string>
+    <string name="about_legal">Cedar TV 是独立的非官方应用，与 jw.org 或任何组织均无关联，也未获其认可或赞助。所有内容归其所有者所有。</string>
 </resources>

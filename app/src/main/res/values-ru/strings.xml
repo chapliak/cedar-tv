@@ -53,7 +53,6 @@
     <string name="play_quality">Качество воспроизведения</string>
     <string name="about">О приложении</string>
     <string name="offline_banner">Нет сети — показано сохранённое</string>
-    <string name="about_text">Cedar TV — неофициальное приложение, не связанное ни с какой организацией и не одобренное ею. Оно бесплатное, без рекламы и не собирает ваши данные. Видео, песни и тексты поступают с общедоступных серверов; ничего не сохраняется, пока вы сами не скачаете.</string>
     <string name="tour_t1">Добро пожаловать в Cedar TV</string>
     <string name="tour_b1">Смотрите видео, слушайте песни и пойте вместе — более чем на 300 языках.\n\nКороткий обзор: 5 страниц.</string>
     <string name="tour_t2">Ваш пульт</string>
@@ -79,4 +78,15 @@
     <string name="sign_languages">Жестовые языки</string>
     <string name="spoken_languages">Устные языки</string>
     <string name="all_langs">Все языки</string>
+    <string name="report_problem">Сообщить о проблеме</string>
+    <string name="report_title">Сообщить о проблеме или идее</string>
+    <string name="report_scan">Наведите камеру телефона, чтобы открыть форму</string>
+    <string name="report_text">Откройте страницу на телефоне, опишите, что пошло не так и что вы делали, и вставьте данные справа. С телевизора ничего не отправляется: вы сами решаете, чем делиться.</string>
+    <string name="report_alt">Или напишите на maksym@chapliak.com либо откройте github.com/chapliak/cedar-tv/issues</string>
+    <string name="report_details">Данные для отчёта</string>
+    <string name="about_version">Версия %1$s</string>
+    <string name="about_tagline">Видео, песни, караоке и субтитры на двух языках более чем на 300 языках, создано для пульта ТВ.</string>
+    <string name="about_text">Бесплатное приложение с открытым кодом. Без рекламы, без аккаунта, без слежки: приложение не собирает никаких данных о вас. Видео, песни и тексты поступают из общедоступной медиатеки jw.org; на телевизоре ничего не сохраняется, пока вы сами не загрузите.</string>
+    <string name="about_made_by">Создал Maksym Chapliak в Монреале</string>
+    <string name="about_legal">Cedar TV — независимое неофициальное приложение. Оно не связано с jw.org или какой-либо организацией, не одобрено и не спонсируется ими. Весь контент принадлежит его владельцам.</string>
 </resources>

@@ -53,7 +53,6 @@
     <string name="play_quality">Qualité de lecture</string>
     <string name="about">À propos</string>
     <string name="offline_banner">Hors ligne — contenu enregistré</string>
-    <string name="about_text">Cedar TV est une application non officielle, sans lien avec une organisation et non approuvée par elle. Elle est gratuite, sans publicité, et ne collecte aucune donnée vous concernant. Les vidéos, chants et textes proviennent de serveurs publics ; rien n\'est enregistré sauf si vous le téléchargez.</string>
     <string name="tour_t1">Bienvenue sur Cedar TV</string>
     <string name="tour_b1">Regardez des vidéos, écoutez des chants et chantez avec, dans plus de 300 langues.\n\nPetit tour : 5 pages.</string>
     <string name="tour_t2">Votre télécommande</string>
@@ -79,4 +78,15 @@
     <string name="sign_languages">Langues des signes</string>
     <string name="spoken_languages">Langues parlées</string>
     <string name="all_langs">Toutes les langues</string>
+    <string name="report_problem">Signaler un problème</string>
+    <string name="report_title">Signaler un problème ou une idée</string>
+    <string name="report_scan">Scannez avec l’appareil photo du téléphone pour ouvrir le formulaire</string>
+    <string name="report_text">Ouvrez la page sur votre téléphone, décrivez ce qui s’est mal passé et ce que vous faisiez, puis collez les détails à droite. Rien n’est envoyé depuis la télé : vous choisissez ce que vous partagez.</string>
+    <string name="report_alt">Ou écrivez à maksym@chapliak.com, ou ouvrez github.com/chapliak/cedar-tv/issues</string>
+    <string name="report_details">Détails à joindre</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_tagline">Vidéos, chants, karaoké et sous-titres en deux langues dans plus de 300 langues, conçu pour la télécommande de la télé.</string>
+    <string name="about_text">Gratuit et open source. Sans publicité, sans compte, sans suivi : l’application ne collecte aucune donnée sur vous. Les vidéos, chants et textes proviennent de la médiathèque publique de jw.org ; rien n’est enregistré sur la télé sauf si vous le téléchargez.</string>
+    <string name="about_made_by">Créé par Maksym Chapliak à Montréal</string>
+    <string name="about_legal">Cedar TV est une application indépendante et non officielle. Elle n’est ni affiliée à jw.org ou à une organisation, ni approuvée ou parrainée par eux. Tout le contenu appartient à ses propriétaires.</string>
 </resources>

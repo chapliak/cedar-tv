@@ -53,7 +53,6 @@
     <string name="play_quality">Afspeelkwaliteit</string>
     <string name="about">Over</string>
     <string name="offline_banner">Offline — opgeslagen inhoud</string>
-    <string name="about_text">Cedar TV is een onofficiële app, niet verbonden aan of goedgekeurd door een organisatie. De app is gratis, toont geen advertenties en verzamelt geen gegevens over jou. Video\'s, liederen en teksten komen van openbare servers; er wordt niets opgeslagen tenzij je het downloadt.</string>
     <string name="tour_t1">Welkom bij Cedar TV</string>
     <string name="tour_b1">Bekijk video\'s, luister naar liederen en zing mee, in meer dan 300 talen.\n\nEen korte rondleiding: 5 pagina\'s.</string>
     <string name="tour_t2">Je afstandsbediening</string>
@@ -79,4 +78,15 @@
     <string name="sign_languages">Gebarentalen</string>
     <string name="spoken_languages">Gesproken talen</string>
     <string name="all_langs">Alle talen</string>
+    <string name="report_problem">Een probleem melden</string>
+    <string name="report_title">Een probleem of idee melden</string>
+    <string name="report_scan">Scan met de cameraapp van je telefoon om het formulier te openen</string>
+    <string name="report_text">Open de pagina op je telefoon, beschrijf wat er misging en wat je deed, en plak de gegevens rechts. Er wordt niets vanaf de tv verstuurd: jij bepaalt wat je deelt.</string>
+    <string name="report_alt">Of mail naar maksym@chapliak.com, of open github.com/chapliak/cedar-tv/issues</string>
+    <string name="report_details">Gegevens om mee te sturen</string>
+    <string name="about_version">Versie %1$s</string>
+    <string name="about_tagline">Video’s, liederen, karaoke en ondertitels in twee talen in meer dan 300 talen, gemaakt voor de tv-afstandsbediening.</string>
+    <string name="about_text">Gratis en open source. Geen advertenties, geen account, geen tracking: de app verzamelt geen gegevens over jou. Video’s, liederen en teksten komen uit de openbare mediabibliotheek van jw.org; op de tv wordt niets opgeslagen tenzij je het downloadt.</string>
+    <string name="about_made_by">Gemaakt door Maksym Chapliak in Montreal</string>
+    <string name="about_legal">Cedar TV is een onafhankelijke, onofficiële app. Ze is niet verbonden aan jw.org of een andere organisatie en wordt niet door hen goedgekeurd of gesponsord. Alle inhoud is van de eigenaren.</string>
 </resources>

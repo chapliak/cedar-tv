@@ -53,7 +53,6 @@
     <string name="play_quality">جودة التشغيل</string>
     <string name="about">حول</string>
     <string name="offline_banner">غير متصل — عرض المحتوى المحفوظ</string>
-    <string name="about_text">Cedar TV تطبيق غير رسمي، وليس تابعًا لأي منظمة ولا معتمدًا منها. وهو مجاني وبلا إعلانات ولا يجمع أي بيانات عنك. تأتي المقاطع والترانيم والنصوص من خوادم عامة، ولا يُحفظ شيء ما لم تقم بتنزيله.</string>
     <string name="tour_t1">مرحبًا بك في Cedar TV</string>
     <string name="tour_b1">شاهد المقاطع، واستمع إلى الترانيم وغنِّ معها، بأكثر من 300 لغة.\n\nجولة سريعة: 5 صفحات.</string>
     <string name="tour_t2">جهاز التحكم</string>
@@ -79,4 +78,15 @@
     <string name="sign_languages">لغات الإشارة</string>
     <string name="spoken_languages">اللغات المنطوقة</string>
     <string name="all_langs">كل اللغات</string>
+    <string name="report_problem">الإبلاغ عن مشكلة</string>
+    <string name="report_title">الإبلاغ عن مشكلة أو فكرة</string>
+    <string name="report_scan">امسح الرمز بكاميرا هاتفك لفتح النموذج</string>
+    <string name="report_text">افتح الصفحة على هاتفك، واكتب ما حدث وما كنت تفعله، ثم الصق التفاصيل الظاهرة على اليمين. لا يُرسَل شيء من التلفزيون: أنت تقرر ما تشاركه.</string>
+    <string name="report_alt">أو راسل maksym@chapliak.com أو افتح github.com/chapliak/cedar-tv/issues</string>
+    <string name="report_details">التفاصيل المطلوب إرفاقها</string>
+    <string name="about_version">الإصدار %1$s</string>
+    <string name="about_tagline">فيديوهات وترانيم وكاريوكي وترجمة بلغتين بأكثر من 300 لغة، مصمم لريموت التلفزيون.</string>
+    <string name="about_text">مجاني ومفتوح المصدر. بلا إعلانات ولا حساب ولا تتبع: التطبيق لا يجمع أي بيانات عنك. تُبَث الفيديوهات والترانيم والنصوص من مكتبة الوسائط العامة لموقع jw.org، ولا يُحفَظ شيء على التلفزيون ما لم تقم بتنزيله.</string>
+    <string name="about_made_by">من تطوير Maksym Chapliak في مونتريال</string>
+    <string name="about_legal">Cedar TV تطبيق مستقل وغير رسمي. وهو غير تابع لموقع jw.org أو لأي منظمة، ولم تؤيده أو ترعه. جميع المحتويات تعود لأصحابها.</string>
 </resources>

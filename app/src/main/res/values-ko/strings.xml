@@ -53,7 +53,6 @@
     <string name="play_quality">재생 화질</string>
     <string name="about">정보</string>
     <string name="offline_banner">오프라인 — 저장된 콘텐츠</string>
-    <string name="about_text">Cedar TV는 비공식 앱으로, 어떤 단체와도 관련이 없으며 승인을 받지 않았습니다. 무료이고 광고가 없으며 사용자 정보를 수집하지 않습니다. 동영상, 노래, 글은 공개 서버에서 가져오며 직접 다운로드하지 않는 한 저장되지 않습니다.</string>
     <string name="tour_t1">Cedar TV에 오신 것을 환영합니다</string>
     <string name="tour_b1">300개 이상의 언어로 동영상을 보고, 노래를 듣고, 함께 불러 보세요.\n\n간단한 안내: 5페이지.</string>
     <string name="tour_t2">리모컨</string>
@@ -79,4 +78,15 @@
     <string name="sign_languages">수화</string>
     <string name="spoken_languages">음성 언어</string>
     <string name="all_langs">모든 언어</string>
+    <string name="report_problem">문제 신고</string>
+    <string name="report_title">문제 또는 아이디어 신고</string>
+    <string name="report_scan">휴대폰 카메라로 스캔하여 양식을 여세요</string>
+    <string name="report_text">휴대폰에서 페이지를 열어 무엇이 잘못되었는지, 무엇을 하고 있었는지 적고 오른쪽의 정보를 붙여 넣으세요. TV에서는 아무것도 전송되지 않으며, 무엇을 공유할지는 직접 정합니다.</string>
+    <string name="report_alt">또는 maksym@chapliak.com 으로 문의하거나 github.com/chapliak/cedar-tv/issues 를 여세요</string>
+    <string name="report_details">포함할 정보</string>
+    <string name="about_version">버전 %1$s</string>
+    <string name="about_tagline">300개 이상의 언어로 제공되는 동영상, 노래, 가라오케, 두 언어 자막. TV 리모컨에 맞게 만들었습니다.</string>
+    <string name="about_text">무료 오픈 소스입니다. 광고도 계정도 추적도 없으며, 앱은 사용자에 대한 데이터를 수집하지 않습니다. 동영상, 노래, 텍스트는 jw.org의 공개 미디어 라이브러리에서 스트리밍되며, 직접 다운로드하지 않으면 TV에 아무것도 저장되지 않습니다.</string>
+    <string name="about_made_by">제작: Maksym Chapliak (몬트리올)</string>
+    <string name="about_legal">Cedar TV는 독립적인 비공식 앱입니다. jw.org 또는 어떤 단체와도 제휴, 승인, 후원 관계가 없습니다. 모든 콘텐츠는 각 소유자에게 있습니다.</string>
 </resources>

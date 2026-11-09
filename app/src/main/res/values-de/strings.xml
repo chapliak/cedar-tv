@@ -53,7 +53,6 @@
     <string name="play_quality">Wiedergabequalität</string>
     <string name="about">Info</string>
     <string name="offline_banner">Offline — gespeicherte Inhalte</string>
-    <string name="about_text">Cedar TV ist eine inoffizielle App, die weder mit einer Organisation verbunden noch von ihr unterstützt wird. Sie ist kostenlos, zeigt keine Werbung und sammelt keine Daten über dich. Videos, Lieder und Texte stammen von öffentlich zugänglichen Servern; nichts wird gespeichert, außer du lädst es herunter.</string>
     <string name="tour_t1">Willkommen bei Cedar TV</string>
     <string name="tour_b1">Videos ansehen, Lieder hören und mitsingen — in über 300 Sprachen.\n\nKurze Tour: 5 Seiten.</string>
     <string name="tour_t2">Deine Fernbedienung</string>
@@ -79,4 +78,15 @@
     <string name="sign_languages">Gebärdensprachen</string>
     <string name="spoken_languages">Gesprochene Sprachen</string>
     <string name="all_langs">Alle Sprachen</string>
+    <string name="report_problem">Problem melden</string>
+    <string name="report_title">Problem oder Idee melden</string>
+    <string name="report_scan">Mit der Handykamera scannen, um das Formular zu öffnen</string>
+    <string name="report_text">Öffne die Seite auf dem Handy, beschreibe, was schiefging und was du getan hast, und füge rechts die Angaben ein. Vom Fernseher wird nichts gesendet: Du entscheidest, was du teilst.</string>
+    <string name="report_alt">Oder schreibe an maksym@chapliak.com oder öffne github.com/chapliak/cedar-tv/issues</string>
+    <string name="report_details">Angaben für den Bericht</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_tagline">Videos, Lieder, Karaoke und zweisprachige Untertitel in über 300 Sprachen, gemacht für die TV-Fernbedienung.</string>
+    <string name="about_text">Kostenlos und Open Source. Keine Werbung, kein Konto, kein Tracking: Die App sammelt keine Daten über dich. Videos, Lieder und Texte kommen aus der öffentlichen Mediathek von jw.org; auf dem Fernseher wird nur etwas gespeichert, wenn du es herunterlädst.</string>
+    <string name="about_made_by">Entwickelt von Maksym Chapliak in Montreal</string>
+    <string name="about_legal">Cedar TV ist eine unabhängige, inoffizielle App. Sie ist nicht mit jw.org oder einer Organisation verbunden und wird von keiner unterstützt, empfohlen oder gesponsert. Alle Inhalte gehören ihren Eigentümern.</string>
 </resources>
