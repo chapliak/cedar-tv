@@ -34,13 +34,13 @@ Website: https://chapliak.com/cedar-tv/
 ```
 
 
-## Ukrainian (uk)  (short 81/80, full 1061/4000) **TOO LONG**
+## Ukrainian (uk)  (short 68/80, full 1061/4000)
 
 **App name:** Cedar TV
 
 **Short description**
 ```
-Неофіційний ТБ-застосунок: відео, пісні, караоке, субтитри 2 мовами. Без реклами.
+Неофіційний ТБ-застосунок: відео, пісні, караоке, субтитри 2 мовами.
 ```
 
 **Full description**

@@ -10,7 +10,7 @@ add('en-CA','English (Canada), default',
  ["Karaoke: sing along with highlighted lyrics on the big screen","Two subtitle languages at once, with timing adjustment and quick switching during the video","Over 300 languages for content, audio and subtitles, including right-to-left and sign languages","Continue watching, favorites, history and downloads that play offline","Search, music queue, sleep timer and a screensaver","Works from 720p to 4K with only the D-pad, OK, Back and Home"],
  "PRIVACY","No ads, no account, no tracking. Your settings, favorites and history stay on your TV.","Source code and support","Website")
 add('uk','Ukrainian (uk)',
- "Неофіційний ТБ-застосунок: відео, пісні, караоке, субтитри 2 мовами. Без реклами.",
+ "Неофіційний ТБ-застосунок: відео, пісні, караоке, субтитри 2 мовами.",
  "Cedar TV — безкоштовний застосунок із відкритим кодом для Google TV і Android TV, який відтворює загальнодоступну медіатеку jw.org із плеєром та інтерфейсом, створеними для пульта ТБ.",
  "Cedar TV — незалежний неофіційний застосунок. Він не пов’язаний із jw.org чи будь-якою організацією, не схвалений і не спонсорований ними.",
  "ЩО МОЖНА РОБИТИ",
