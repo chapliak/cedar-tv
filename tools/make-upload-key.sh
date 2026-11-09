@@ -8,7 +8,7 @@ DIR="$HOME/.cedar-upload"; mkdir -p "$DIR"; chmod 700 "$DIR"
 read -r -s -p "New keystore password (12+ chars, no \$ or quotes): " P1; echo
 read -r -s -p "Repeat: " P2; echo
 [ "$P1" = "$P2" ] && [ ${#P1} -ge 12 ] || { echo "Passwords differ or are too short"; exit 1; }
-docker run --rm -v "$DIR":/out mingc/android-build-box:latest keytool -genkeypair -keystore /out/upload.jks \
+docker run --rm -u "$(id -u):$(id -g)" -v "$DIR":/out mingc/android-build-box:latest keytool -genkeypair -keystore /out/upload.jks \
   -alias cedar-upload -keyalg RSA -keysize 4096 -validity 10000 -storepass "$P1" -keypass "$P1" \
   -dname "CN=Maksym Chapliak, C=CA"
 printf 'storePassword=%s\nkeyPassword=%s\nkeyAlias=cedar-upload\n' "$P1" "$P1" > "$DIR/keystore.properties"
