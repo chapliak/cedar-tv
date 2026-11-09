@@ -14,8 +14,8 @@ android {
         applicationId = "app.cedartv"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = 2
+        versionName = "0.2.0"
     }
     // Fixed TEST key (not a Play release key): same signature on every build, so `adb install -r` always works.
     signingConfigs {
