@@ -89,9 +89,9 @@ organization ever asks for a change, the project will follow it.
 
 Requirements: Google TV / Android TV (Android 8.0+, API 26).
 
-1. Download `cedar-tv-0.1.0.apk` from the [Releases](https://github.com/chapliak/cedar-tv/releases) page.
+1. Download `cedar-tv-0.2.0.apk` from the [Releases](https://github.com/chapliak/cedar-tv/releases) page.
 2. Enable **Developer options** on the TV and turn on **Wireless debugging** (or use the *Downloader* app with the file link).
-3. `adb connect <tv-ip>:<port>` then `adb install cedar-tv-0.1.0.apk`.
+3. `adb connect <tv-ip>:<port>` then `adb install cedar-tv-0.2.0.apk`.
 
 ## Build from source
 
